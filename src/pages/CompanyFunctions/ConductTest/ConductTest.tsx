@@ -445,9 +445,9 @@ const ConductTest: React.FC = () => {
 
       let updateField = '';
 
-      if (testDetails.title === 'Practice Test') {
+      if (testDetails.title === 'PracticeTest') {
         updateField = 'practiceTests';
-      } else if (testDetails.title === 'Online Coding Round') {
+      } else if (testDetails.title === 'OnlineCodingRound') {
         updateField = 'onlineCodingRounds';
       } else {
         throw new Error('Unknown test type');

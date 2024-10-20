@@ -28,9 +28,9 @@ export default function Home() {
               ))}
             </div>
           )}
-          <table className="text-sm text-left text-gray-500 dark:text-gray-400 sm:w-7/12 w-full max-w-[1200px] mx-auto">
+          <table className="text-sm text-left text-black dark:text-black sm:w-7/12 w-full max-w-[1200px] mx-auto">
             {!loadingProblems && (
-              <thead className="text-xs text-gray-700 uppercase dark:text-gray-400 border-b">
+              <thead className="text-xs text-black uppercase dark:text-black border-b">
                 <tr>
                   <th scope="col" className="px-1 py-3 w-0 font-medium">
                     Status
