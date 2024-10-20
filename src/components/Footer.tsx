@@ -51,12 +51,9 @@ const Footer: React.FC = () => {
           <div className="w-full sm:w-1/5 mb-6">
             <h2 className="font-bold mb-2">GET STARTED</h2>
             <ul>
-              <li>Pricing</li>
-              <li>Free Trial</li>
               <li>Contact Us</li>
               <li>Request Demo</li>
               <li>Product Support</li>
-              <li>For Developers</li>
             </ul>
           </div>
         </div>

@@ -6,7 +6,7 @@ import useHasMounted from '@/hooks/useHasMounted';
 import { problems } from '@/utils/problems';
 import { Problem } from '@/utils/types/problem';
 import React from 'react';
-import { useUser } from '../context/UserContext'; // Assuming you have a UserContext to get user information
+import { useUser } from '../context/UserContext'; 
 
 type ProblemPageProps = {
   problem: Problem;
